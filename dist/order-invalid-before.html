@@ -18,18 +18,7 @@
 				<div class="col-8">
 					<div class="card d-block">
 						<div class="card-body">
-							<div class="dropdown card-widgets">
-								<a href="javascript:void(0);" class="dropdown-toggle arrow-none" data-toggle="dropdown" aria-expanded="false">
-									<i class="fas fa-ellipsis-h"></i>
-								</a>
-								<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-142px, 20px, 0px);">
-									<!-- item-->
-									<a href="javascript:void(0);" class="dropdown-item"><i class="fas mr-1 fa-pen"></i>Edit</a>
-									<!-- item-->
-									<a href="javascript:void(0);" class="dropdown-item"><i class="fas mr-1 fa-trash-alt"></i>Delete</a>
-								</div>
-							</div>
-							<!-- project title-->
+
 							<h3 class="mt-0">
 								Название заказа
 							</h3>
@@ -51,25 +40,17 @@
 							</p>
 
 							<div class="row">
-								<!--
 								<div class="col-md-4">
-									<div class="mb-4">
-										<h5>Start Date</h5>
-										<p>17 March 2018 <small class="text-muted">1:00 PM</small></p>
-									</div>
+									<h5>Дата размещения</h5>
+									<p>22 ноября 2018 <small class="text-muted">14:43</small></p>
 								</div>
--->
-								<div class="col-md-4">
-									<div class="mb-4">
-										<h5>Дата размещения</h5>
-										<p>22 ноября 2018 <small class="text-muted">14:43</small></p>
-									</div>
+								<div class="col-md-3">
+									<h5>Бюджет</h5>
+									<p>10 0000 р</p>
 								</div>
-								<div class="col-md-4">
-									<div class="mb-4">
-										<h5>Бюджет</h5>
-										<p>10 0000 р</p>
-									</div>
+								<div class="col-md-3">
+									<h5>Откликов</h5>
+									<p>13</p>
 								</div>
 							</div>
 						</div> <!-- end card-body-->
@@ -77,62 +58,82 @@
 					</div>
 					<div class="card">
 						<div class="card-body">
-							<h4 class="mt-0 mb-3">Отклики</h4>
+							<h4 class="mt-0 mb-3">Оставьте свой отклик</h4>
 
 							<textarea class="form-control form-control-light mb-2" placeholder="Напишите отклик" id="example-textarea" rows="3"></textarea>
-							<div class="text-right mb-4">
-								<!--
-								<div class="btn-group mb-2">
-									<button type="button" class="btn btn-link btn-sm text-muted font-18"><i class="dripicons-paperclip"></i></button>
+
+							<div class="form-row align-items-center justify-content-end">
+								<div class="col-auto">
+									<div class="custom-control custom-checkbox mb-2">
+										<input type="checkbox" class="custom-control-input" id="needHelp">
+										<label class="custom-control-label" for="needHelp">Нужна помощь куратора</label>
+									</div>
 								</div>
--->
-								<div class="btn-group mb-2 ml-2">
-									<button type="button" class="btn btn-primary btn-sm">Отправить</button>
+								<div class="col-auto">
+									<button type="submit" class="btn btn-primary mb-2">Отправить</button>
 								</div>
-							</div>
+							</div> <!-- end card-body-->
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-body">
+							<h4 class="mt-0 mb-3">Ваш отклик <small class="text-muted">[Появляется после того, как исполнитель оставил отклик]</small></h4>
+
 							<div class="media mt-2">
 								<img class="mr-3 avatar-sm rounded-circle" src="img/avatar-1.png" alt="Описание">
 								<div class="media-body">
 									<h5 class="mt-0">Николай Продольный</h5>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo maxime, natus nihil modi culpa laboriosam in quas eligendi, magni dicta!
-									<div class="text-right">
-										<div class="btn-group" role="group" aria-label="Basic example">
-											<button type="button" class="btn btn-sm btn-outline-success btn-rounded">Выбрать исполнителем</button>
-											<button type="button" class="btn btn-sm btn-outline-danger btn-rounded">Скрыть</button>
+									<p class="mb-1">День добрый! Готов выполнить ваш заказ! По срокам - 7-9 дней, без учета выходных. Ссылка на портфолио - <a href="#">Ссылка</a></p>
+									<div class="small text-right text-muted"><i class="fas fa-check-circle"></i> Нужна помощь куратора [только для исполнителя]</div>
+
+
+									<div class="media mt-2">
+										<img class="mr-3 avatar-sm rounded-circle" src="img/avatar-2.jpg" alt="Описание">
+										<div class="media-body">
+											<h5 class="mt-0">Николай Поперечный</h5>
+											<p class="mb-1">День добрый! Как с вами можно связаться? И как с оплатой?</p>
 										</div>
 									</div>
-								</div>
-							</div>
-							<div class="media mt-2">
-								<img class="mr-3 avatar-sm rounded-circle" src="img/avatar-1.png" alt="Описание">
-								<div class="media-body">
-									<h5 class="mt-0">Николай Продольный</h5>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo maxime, natus nihil modi culpa laboriosam in quas eligendi, magni dicta!
-									<div class="text-right">
-										<div class="btn-group" role="group" aria-label="Basic example">
-											<button type="button" class="btn btn-sm btn-outline-success btn-rounded">Выбрать исполнителем</button>
-											<button type="button" class="btn btn-sm btn-outline-danger btn-rounded">Скрыть</button>
+									<div class="media mt-2">
+										<img class="mr-3 avatar-sm rounded-circle" src="img/avatar-1.png" alt="Описание">
+										<div class="media-body">
+											<h5 class="mt-0">Николай Продольный</h5>
+											<p class="mb-1">Все контакты в профиле. Оплата как вам удобно.</p>
 										</div>
 									</div>
+									<div class="media mt-2">
+										<img class="mr-3 avatar-sm rounded-circle" src="img/avatar-2.jpg" alt="Описание">
+										<div class="media-body">
+											<h5 class="mt-0">Николай Поперечный</h5>
+											<p class="mb-1">Написал вам в телеграм.</p>
+										</div>
+									</div>
+
+									<form action="">
+										<textarea class="form-control form-control-light mt-2" placeholder="Ваш ответ" id="" rows="3"></textarea>
+										<div class="text-right mt-2">
+											<button type="submit" class="btn btn-primary mb-2">Отправить</button>
+										</div>
+									</form>
 								</div>
 							</div>
-						</div> <!-- end card-body-->
+						</div>
 					</div>
 				</div>
 				<div class="col-4">
 					<div class="card">
+						<div class="card-header">Заказчик</div>
 						<div class="card-body">
-							<h5 class="card-title mb-3">Заказчик</h5>
 							<div class="text-center">
-								<img src="img/avatar-1.png" style="height: 100px;" alt="" class="rounded-circle img-thumbnail">
-								<div class="h4">Роман Мещеряков</div>
+								<img src="img/avatar-2.jpg" style="height: 100px;" alt="" class="rounded-circle img-thumbnail">
+								<div class="h4">Николай Поперечный</div>
 								<div class="small">Россия, Новосибирск, 20 лет</div>
 							</div>
 						</div>
 					</div>
 					<div class="card">
+						<div class="card-header">Прикрепленные файлы</div>
 						<div class="card-body">
-							<h5 class="card-title mb-3">Прикрепленные файлы</h5>
 
 							<div class="card mb-1 shadow-none border border-light">
 								<div class="p-2">
