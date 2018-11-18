@@ -78,82 +78,105 @@
 	<div class="container">
 		<div class="card">
 			<div class="card-body">
-				<h4 class="mt-0 mb-3">Создание нового заказа</h4>
+				<h4 class="mt-0 mb-3">Редактирование информации</h4>
 
 				<div class="form-group">
-					<label for="">Название</label>
-					<input type="text" id="input1" class="form-control" placeholder="Название">
+					<label for="">Имя</label>
+					<input type="text" id="input1" class="form-control form-control-light" placeholder="Роман">
 				</div>
 				<div class="form-group">
-					<label for="">Ключевые теги</label>
-
-					<div class="mb-2">
-						<span class="badge badge-secondary">css</span>
-						<span class="badge badge-secondary">css</span>
-						<span class="badge badge-secondary">css</span>
-					</div>
-
-					<div class="input-group">
-						<input type="text" class="form-control" placeholder="Recipient's username" aria-label="Введите">
-						<div class="input-group-append">
-							<button class="btn btn-dark" type="button">Добавить</button>
-						</div>
-					</div>
+					<label for="">Фамилия</label>
+					<input type="text" id="input1" class="form-control form-control-light" placeholder="Мещеряков">
 				</div>
 				<div class="form-group">
-					<label for="">Описание [Без редактора]</label>
-					<textarea class="form-control" row="3"></textarea>
-				</div>
-				<div class="form-group">
-					<label for="">Описание [С редактором]</label>
-					<textarea id="simplemde1"></textarea>
-
-					<link href="css/simplemde.min.css" rel="stylesheet" type="text/css">
-					<script src="js/simplemde.min.js"></script>
-					<script>
-
-						new SimpleMDE({
-							element: document.getElementById("simplemde1"),
-							spellChecker: !1,
-							autosave: {
-								enabled: !0,
-								unique_id: "simplemde1"
-							}
-						})
-						
-					</script>
-				</div>
-				<div class="form-group">
-					<label for="">Прикрепить файлы</label>
-					<div class="dropzone dz-clickable">
-						<div class="dz-message needsclick">
-							<i class="h1 fas fa-cloud-upload-alt"></i>
-							<h3>Нажмите или перетащите сюда, чтобы загрузить</h3>
-						</div>
-					</div>
+					<label for="">О себе</label>
+					<textarea name="" id="" rows="10" class="form-control form-control-light"></textarea>
 				</div>
 
 				<div class="form-row align-items-center justify-content-end">
 					<div class="col-auto">
-						<button type="submit" class="btn btn-danger mb-2" data-toggle="modal" data-target="#danger-alert-modal">Отменить</button>
-						<button type="submit" class="btn btn-primary mb-2">Создать</button>
+						<button type="submit" class="btn btn-primary mb-2">Сохранить</button>
 
-						<div id="danger-alert-modal" class="modal fade" tabindex="-1" role="dialog" style="display: none;" aria-hidden="true">
-							<div class="modal-dialog modal-sm">
-								<div class="modal-content modal-filled bg-danger">
-									<div class="modal-body p-4">
-										<div class="text-center">
-											<i class="dripicons-wrong h1"></i>
-											<h4 class="mt-2">Удаление</h4>
-											<p class="mt-3">Вы действительно хотите удалить заказ?</p>
-											<button type="button" class="btn btn-light my-2" data-dismiss="modal">Удалить</button>
-										</div>
-									</div>
-								</div><!-- /.modal-content -->
-							</div><!-- /.modal-dialog -->
-						</div>
 					</div>
 				</div> <!-- end card-body-->
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-body">
+				<h4 class="mt-0 mb-3">Время для консультаций</h4>
+				<p>Добавьте время, в которое ваши ученики могут с вами связаться</p>
+				<div class="row">
+					<div class="col-md-6">
+						<table class="table table-sm table-bordered mb-0">
+							<tbody>
+								<tr>
+									<td>Понедельник</td>
+									<td>
+										<span class="badge badge-primary">10:00 - 22:00</span>
+										<span class="badge badge-primary">10:00 - 22:00</span>
+									</td>
+								</tr>
+								<tr>
+									<td>Вторник</td>
+									<td>
+										<span class="badge badge-primary">10:00 - 22:00</span>
+									</td>
+								</tr>
+								<tr>
+									<td>Среда</td>
+									<td>
+										<span class="badge badge-primary">10:00 - 22:00</span>
+									</td>
+								</tr>
+								<tr>
+									<td>Четверг</td>
+									<td>
+										<span class="badge badge-primary">10:00 - 22:00</span>
+									</td>
+								</tr>
+								<tr>
+									<td>Пятница</td>
+									<td>
+										<span class="badge badge-primary">10:00 - 22:00</span>
+									</td>
+								</tr>
+								<tr>
+									<td>Суббота</td>
+									<td>
+										<span class="badge badge-primary">10:00 - 22:00</span>
+									</td>
+								</tr>
+								<tr>
+									<td>Воскресенье</td>
+									<td>
+										<span class="badge badge-primary">10:00 - 22:00</span>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="col-md-6">
+
+						<select class="form-control form-control-sm mb-1" id="example-select">
+							<option>Понедельник</option>
+							<option>Вторник</option>
+							<option>Среда</option>
+							<option>Четверг</option>
+							<option>Пятница</option>
+							<option>Суббота</option>
+							<option>Воскресенье</option>
+						</select>
+						<div class="input-group">
+							<input type="time" class="form-control form-control-sm" placeholder="">
+							<input type="time" class="form-control form-control-sm" placeholder="">
+
+							<div class="input-group-append">
+								<button class="btn btn-dark btn-sm" type="button">+</button>
+							</div>
+						</div>
+
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
