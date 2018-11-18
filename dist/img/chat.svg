@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="799px" height="597px" viewBox="0 0 799 597" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="469" height="365" rx="22"></rect>
+        <filter x="-11.2%" y="-14.4%" width="122.4%" height="128.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="17.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1153476 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="309" height="44" rx="22"></rect>
+        <filter x="-14.6%" y="-102.3%" width="129.1%" height="304.5%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.139436141 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="0" y="0" width="351" height="64" rx="22"></rect>
+        <filter x="-12.8%" y="-70.3%" width="125.6%" height="240.6%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.139436141 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FAFBFE" x="0" y="0" width="799" height="597"></rect>
+        <g id="Group-2" transform="translate(209.000000, 192.000000)" fill-rule="nonzero">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" xlink:href="#path-1"></use>
+            </g>
+            <g id="Group" transform="translate(23.000000, 29.000000)">
+                <polygon id="Star" fill="#FBDE00" points="282.451245 19.7172108 276.247184 23.3279812 277.762325 16.3087795 272.412863 11.5211567 279.553333 10.793822 282.451245 4.22413793 285.349156 10.793822 292.489627 11.5211567 287.140164 16.3087795 288.655306 23.3279812"></polygon>
+                <polygon id="Star-Copy" fill="#FBDE00" points="311.160788 19.7172108 304.956727 23.3279812 306.471869 16.3087795 301.122407 11.5211567 308.262877 10.793822 311.160788 4.22413793 314.0587 10.793822 321.19917 11.5211567 315.849708 16.3087795 317.36485 23.3279812"></polygon>
+                <polygon id="Star-Copy-2" fill="#FBDE00" points="339.025934 19.7172108 332.821872 23.3279812 334.337014 16.3087795 328.987552 11.5211567 336.128022 10.793822 339.025934 4.22413793 341.923845 10.793822 349.064315 11.5211567 343.714853 16.3087795 345.229995 23.3279812"></polygon>
+                <polygon id="Star-Copy-3" fill="#FBDE00" points="367.735477 19.7172108 361.531416 23.3279812 363.046558 16.3087795 357.697095 11.5211567 364.837566 10.793822 367.735477 4.22413793 370.633389 10.793822 377.773859 11.5211567 372.424397 16.3087795 373.939538 23.3279812"></polygon>
+                <polygon id="Star-Copy-4" fill="#FBDE00" points="396.445021 19.7172108 390.24096 23.3279812 391.756101 16.3087795 386.406639 11.5211567 393.547109 10.793822 396.445021 4.22413793 399.342932 10.793822 406.483403 11.5211567 401.13394 16.3087795 402.649082 23.3279812"></polygon>
+                <rect id="Rectangle" fill="#D8D8D8" x="64.1742739" y="5.9137931" width="163.813278" height="16.0517241" rx="8.02586207"></rect>
+                <rect id="Rectangle-Copy" fill="#D8D8D8" x="64.1742739" y="32.1034483" width="342.825726" height="10.9827586" rx="5.49137931"></rect>
+                <ellipse id="Oval" fill="#D8D8D8" cx="24.4875519" cy="24.5" rx="24.4875519" ry="24.5"></ellipse>
+            </g>
+            <g id="Group-Copy" transform="translate(23.000000, 95.000000)">
+                <polygon id="Star" fill="#FBDE00" points="282.451245 19.7172108 276.247184 23.3279812 277.762325 16.3087795 272.412863 11.5211567 279.553333 10.793822 282.451245 4.22413793 285.349156 10.793822 292.489627 11.5211567 287.140164 16.3087795 288.655306 23.3279812"></polygon>
+                <polygon id="Star-Copy" fill="#FBDE00" points="311.160788 19.7172108 304.956727 23.3279812 306.471869 16.3087795 301.122407 11.5211567 308.262877 10.793822 311.160788 4.22413793 314.0587 10.793822 321.19917 11.5211567 315.849708 16.3087795 317.36485 23.3279812"></polygon>
+                <polygon id="Star-Copy-2" fill="#FBDE00" points="339.025934 19.7172108 332.821872 23.3279812 334.337014 16.3087795 328.987552 11.5211567 336.128022 10.793822 339.025934 4.22413793 341.923845 10.793822 349.064315 11.5211567 343.714853 16.3087795 345.229995 23.3279812"></polygon>
+                <polygon id="Star-Copy-3" fill="#FBDE00" points="367.735477 19.7172108 361.531416 23.3279812 363.046558 16.3087795 357.697095 11.5211567 364.837566 10.793822 367.735477 4.22413793 370.633389 10.793822 377.773859 11.5211567 372.424397 16.3087795 373.939538 23.3279812"></polygon>
+                <polygon id="Star-Copy-4" fill="#FBDE00" points="396.445021 19.7172108 390.24096 23.3279812 391.756101 16.3087795 386.406639 11.5211567 393.547109 10.793822 396.445021 4.22413793 399.342932 10.793822 406.483403 11.5211567 401.13394 16.3087795 402.649082 23.3279812"></polygon>
+                <rect id="Rectangle" fill="#D8D8D8" x="64.1742739" y="5.9137931" width="163.813278" height="16.0517241" rx="8.02586207"></rect>
+                <rect id="Rectangle-Copy" fill="#D8D8D8" x="64.1742739" y="32.1034483" width="342.825726" height="10.9827586" rx="5.49137931"></rect>
+                <ellipse id="Oval" fill="#D8D8D8" cx="24.4875519" cy="24.5" rx="24.4875519" ry="24.5"></ellipse>
+            </g>
+            <g id="Group-Copy-2" transform="translate(23.000000, 161.000000)">
+                <polygon id="Star-Copy" fill="#FBDE00" points="311.160788 19.7172108 304.956727 23.3279812 306.471869 16.3087795 301.122407 11.5211567 308.262877 10.793822 311.160788 4.22413793 314.0587 10.793822 321.19917 11.5211567 315.849708 16.3087795 317.36485 23.3279812"></polygon>
+                <polygon id="Star-Copy-2" fill="#FBDE00" points="339.025934 19.7172108 332.821872 23.3279812 334.337014 16.3087795 328.987552 11.5211567 336.128022 10.793822 339.025934 4.22413793 341.923845 10.793822 349.064315 11.5211567 343.714853 16.3087795 345.229995 23.3279812"></polygon>
+                <polygon id="Star-Copy-3" fill="#FBDE00" points="367.735477 19.7172108 361.531416 23.3279812 363.046558 16.3087795 357.697095 11.5211567 364.837566 10.793822 367.735477 4.22413793 370.633389 10.793822 377.773859 11.5211567 372.424397 16.3087795 373.939538 23.3279812"></polygon>
+                <polygon id="Star-Copy-4" fill="#FBDE00" points="396.445021 19.7172108 390.24096 23.3279812 391.756101 16.3087795 386.406639 11.5211567 393.547109 10.793822 396.445021 4.22413793 399.342932 10.793822 406.483403 11.5211567 401.13394 16.3087795 402.649082 23.3279812"></polygon>
+                <rect id="Rectangle" fill="#D8D8D8" x="64.1742739" y="5.9137931" width="163.813278" height="16.0517241" rx="8.02586207"></rect>
+                <rect id="Rectangle-Copy" fill="#D8D8D8" x="64.1742739" y="32.1034483" width="342.825726" height="10.9827586" rx="5.49137931"></rect>
+                <ellipse id="Oval" fill="#D8D8D8" cx="24.4875519" cy="24.5" rx="24.4875519" ry="24.5"></ellipse>
+            </g>
+            <g id="Group-Copy-3" transform="translate(23.000000, 227.000000)">
+                <polygon id="Star-Copy" fill="#FBDE00" points="311.160788 19.7172108 304.956727 23.3279812 306.471869 16.3087795 301.122407 11.5211567 308.262877 10.793822 311.160788 4.22413793 314.0587 10.793822 321.19917 11.5211567 315.849708 16.3087795 317.36485 23.3279812"></polygon>
+                <polygon id="Star-Copy-2" fill="#FBDE00" points="339.025934 19.7172108 332.821872 23.3279812 334.337014 16.3087795 328.987552 11.5211567 336.128022 10.793822 339.025934 4.22413793 341.923845 10.793822 349.064315 11.5211567 343.714853 16.3087795 345.229995 23.3279812"></polygon>
+                <polygon id="Star-Copy-3" fill="#FBDE00" points="367.735477 19.7172108 361.531416 23.3279812 363.046558 16.3087795 357.697095 11.5211567 364.837566 10.793822 367.735477 4.22413793 370.633389 10.793822 377.773859 11.5211567 372.424397 16.3087795 373.939538 23.3279812"></polygon>
+                <polygon id="Star-Copy-4" fill="#FBDE00" points="396.445021 19.7172108 390.24096 23.3279812 391.756101 16.3087795 386.406639 11.5211567 393.547109 10.793822 396.445021 4.22413793 399.342932 10.793822 406.483403 11.5211567 401.13394 16.3087795 402.649082 23.3279812"></polygon>
+                <rect id="Rectangle" fill="#D8D8D8" x="64.1742739" y="5.9137931" width="163.813278" height="16.0517241" rx="8.02586207"></rect>
+                <rect id="Rectangle-Copy" fill="#D8D8D8" x="64.1742739" y="32.1034483" width="342.825726" height="10.9827586" rx="5.49137931"></rect>
+                <ellipse id="Oval" fill="#D8D8D8" cx="24.4875519" cy="24.5" rx="24.4875519" ry="24.5"></ellipse>
+            </g>
+            <g id="Group-Copy-4" transform="translate(23.000000, 292.000000)">
+                <polygon id="Star-Copy" fill="#FBDE00" points="311.160788 19.7172108 304.956727 23.3279812 306.471869 16.3087795 301.122407 11.5211567 308.262877 10.793822 311.160788 4.22413793 314.0587 10.793822 321.19917 11.5211567 315.849708 16.3087795 317.36485 23.3279812"></polygon>
+                <polygon id="Star-Copy-2" fill="#FBDE00" points="339.025934 19.7172108 332.821872 23.3279812 334.337014 16.3087795 328.987552 11.5211567 336.128022 10.793822 339.025934 4.22413793 341.923845 10.793822 349.064315 11.5211567 343.714853 16.3087795 345.229995 23.3279812"></polygon>
+                <polygon id="Star-Copy-3" fill="#FBDE00" points="367.735477 19.7172108 361.531416 23.3279812 363.046558 16.3087795 357.697095 11.5211567 364.837566 10.793822 367.735477 4.22413793 370.633389 10.793822 377.773859 11.5211567 372.424397 16.3087795 373.939538 23.3279812"></polygon>
+                <polygon id="Star-Copy-4" fill="#FBDE00" points="396.445021 19.7172108 390.24096 23.3279812 391.756101 16.3087795 386.406639 11.5211567 393.547109 10.793822 396.445021 4.22413793 399.342932 10.793822 406.483403 11.5211567 401.13394 16.3087795 402.649082 23.3279812"></polygon>
+                <rect id="Rectangle" fill="#D8D8D8" x="64.1742739" y="5.9137931" width="163.813278" height="16.0517241" rx="8.02586207"></rect>
+                <rect id="Rectangle-Copy" fill="#D8D8D8" x="64.1742739" y="32.1034483" width="342.825726" height="10.9827586" rx="5.49137931"></rect>
+                <ellipse id="Oval" fill="#D8D8D8" cx="24.4875519" cy="24.5" rx="24.4875519" ry="24.5"></ellipse>
+            </g>
+        </g>
+        <g id="Group-3" transform="translate(32.000000, 34.000000)" fill-rule="nonzero">
+            <circle id="Oval" fill="#D8D8D8" cx="30" cy="30" r="30"></circle>
+            <circle id="Oval" fill="#FFFFFF" cx="30.2941176" cy="19.1176471" r="9.11764706"></circle>
+            <path d="M12.9412433,47.0253325 C12.9185087,35.6639471 18.6971276,29.9888418 30.2771001,30.0000165 C41.8570726,30.0111911 47.6470588,35.6974601 47.6470588,47.0588235 L12.9412433,47.0253325 Z" id="Path-3" fill="#FFFFFF"></path>
+        </g>
+        <g id="Group-4" transform="translate(122.000000, 34.000000)">
+            <g id="Rectangle" fill-rule="nonzero">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="#FFFFFF" xlink:href="#path-3"></use>
+            </g>
+            <text id="Мне-нужна-помощь-с-з" font-family="Stem-Regular, Stem" font-size="16" font-weight="normal" letter-spacing="0.625" fill="#373A3C">
+                <tspan x="24" y="28">Мне нужна помощь с заданием!</tspan>
+            </text>
+        </g>
+        <g id="Group-4-Copy-2" transform="translate(327.000000, 108.000000)">
+            <g id="Rectangle" fill-rule="nonzero">
+                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                <use fill="#FFFFFF" xlink:href="#path-5"></use>
+            </g>
+            <text id="Мы-подобрали-наставн" font-family="Stem-Regular, Stem" font-size="16" font-weight="normal" letter-spacing="0.625" fill="#373A3C">
+                <tspan x="24.111" y="26">Мы подобрали наставников, которые </tspan>
+                <tspan x="78.26" y="47">подходят специально для вас:</tspan>
+            </text>
+        </g>
+        <g id="Group-5" transform="translate(708.000000, 108.000000)">
+            <circle id="Oval" fill="#D8D8D8" fill-rule="nonzero" cx="30" cy="30" r="30"></circle>
+            <image id="Bitmap" x="13.3333333" y="18.75" width="33.1560284" height="22.9166667" xlink:href="data:image/png;base64,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"></image>
+        </g>
+    </g>
+</svg>

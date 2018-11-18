@@ -2,6 +2,7 @@
 
 ## Основные
 - Список заказов: https://staremang.github.io/megahack/dist/order-list.html
+- Создание заказа: https://staremang.github.io/megahack/dist/order-edit.html
 - Список заявок на сопровождение: https://staremang.github.io/megahack/dist/help-list.html
 
 ## Со стороны заказчика
